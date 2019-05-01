@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/tetris.dir/main.cpp.o CMakeFiles/tetris.dir/Game/Board.cpp.o CMakeFiles/tetris.dir/Game/Game.cpp.o CMakeFiles/tetris.dir/Game/IO.cpp.o CMakeFiles/tetris.dir/Game/Pieces.cpp.o CMakeFiles/tetris.dir/MAX7219/Max7219Display.cpp.o  -o tetris -lwiringPi 
