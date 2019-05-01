@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tetris"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.St5UrXFl0K/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.St5UrXFl0K/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.St5UrXFl0K/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tetris">
+				<Option output="/tmp/tmp.St5UrXFl0K/cmake-build-debug/tetris" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.St5UrXFl0K/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tetris/fast">
+				<Option output="/tmp/tmp.St5UrXFl0K/cmake-build-debug/tetris" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.St5UrXFl0K/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/6"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf/c++/6"/>
+					<Add directory="/usr/include/c++/6/backward"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/arm-linux-gnueabihf/6/include-fixed"/>
+					<Add directory="/usr/include/arm-linux-gnueabihf"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetris/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/tmp/tmp.St5UrXFl0K/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Board.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Board.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Game.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Game.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/IO.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/IO.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Pieces.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/Pieces.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/Game/SDL_keysym.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/MAX7219/Max7219Display.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/MAX7219/Max7219Display.h">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/main.cpp">
+			<Option target="tetris"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.St5UrXFl0K/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
