@@ -72,7 +72,6 @@ void Max7219Display::update() {
     for (size_t rowPixel = 0; rowPixel < 8; rowPixel++) {
         for (int rowMatrix = _nRowMatrices - 1; rowMatrix >= 0; --rowMatrix) {
             for (int colMatrix = _nColMatrices - 1; colMatrix >= 0; --colMatrix) {
-                const auto indexMatrix = colMatrix + rowMatrix * _nColMatrices;
                 unsigned char pixels = 0;
                 for (size_t colPixel = 0; colPixel < 8; colPixel++) {
                     const auto indexPixel =
@@ -135,8 +134,8 @@ void Max7219Display::rectangle(int x1, int y1, int x2, int y2, bool pixelValue) 
     int xEnd = x1 > x2 ? x1 : x2;
     int yStart = y1 > y2 ? y2 : y1;
     int yEnd = y1 > y2 ? y1 : y2;
-    for (int x = x1; x <= x2; x++) {
-        for (int y = y1; y <= y2; y++) {
+    for (int x = xStart; x <= xEnd; x++) {
+        for (int y = yStart; y <= yEnd; y++) {
             setPixel(x, y, pixelValue);
         }
     }
